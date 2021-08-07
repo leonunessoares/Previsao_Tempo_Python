@@ -12,7 +12,6 @@ html = requests.get("https://www.climatempo.com.br/previsao-do-tempo/cidade/321/
 
 soup = BeautifulSoup(html, 'html.parser')
 
-resume = soup.find(class_='-gray-line')
 
 tempoMin = soup.find(id='min-temp-1')
 
