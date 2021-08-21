@@ -2,6 +2,8 @@
 
 # pip install beautifulsoup4
 
+# pip install requests
+
 # Previsão do tempo para a cidade do Rio de Janeiro
 
 from bs4 import BeautifulSoup
